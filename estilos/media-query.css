@@ -38,6 +38,15 @@
         float: left;
         width: 50%;
     }
+    section#login > div#formulario > h1{
+        font-size: 2em;
+    }
+
+    section#login > div#formulario > p{
+        font-size: 0.8em;
+        margin: 10px 0px;
+
+    }
 
 
 
