@@ -85,13 +85,13 @@ section#login > div#formulario > form > div.campo > label{
 }
 
 section#login > div#formulario > form > div.campo > span.material-icons{
-    color: white;
-    
+    color: white;    
     width: 40px;
     font-size: 2em;
     padding: 5px;
 
 }
+
 section#login > div#formulario > form > div.campo > input{
     background-color: #76f3efc7;
     font-size: 1em;
@@ -102,6 +102,11 @@ section#login > div#formulario > form > div.campo > input{
     padding: 4px;
     border: 0px;
   
+}
+section#login > div#formulario > form > div.campo > input:focus-within{
+    background-color: white;
+    border: 0px;
+
 }
 
 form > a.botao {
