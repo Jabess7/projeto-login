@@ -77,13 +77,32 @@ section#login > div#formulario > form > div.campo{
     height: 40px;    
     margin: 5px 0px;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 section#login > div#formulario > form > div.campo > label{
     display: none;
 }
 
+section#login > div#formulario > form > div.campo > span.material-icons{
+    color: white;
+    
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+
+}
+section#login > div#formulario > form > div.campo > input{
+    background-color: #76f3efc7;
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 90%;
+    transform: translateY(-10px);
+    border-radius: 8px;
+    padding: 4px;
+    border: 0px;
+  
+}
 
 form > a.botao {
     display: block;
