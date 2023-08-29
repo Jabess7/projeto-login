@@ -29,9 +29,10 @@ section#login{
     margin: auto;
     position: absolute;
     left: 50%;
-    top: 50%;   
-    transform: translate(-50%, -50%);
+    top: 50%;
     overflow: hidden;
+
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem{
     width: 260px;
@@ -96,11 +97,12 @@ section#login > div#formulario > form > div.campo > input{
     background-color: #76f3efc7;
     font-size: 1em;
     width: calc(100% - 50px);
-    height: 90%;
-    transform: translateY(-10px);
+    height: 90%;    
     border-radius: 8px;
     padding: 4px;
     border: 0px;
+
+    transform: translateY(-11px);
   
 }
 section#login > div#formulario > form > div.campo > input:focus-within{
