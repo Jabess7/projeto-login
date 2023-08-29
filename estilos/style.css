@@ -80,7 +80,7 @@ section#login > div#formulario > form > div.campo{
     color: white;
 }
 
-div.campo > label{
+section#login > div#formulario > form >div.campo > label{
     display: none;
 }
 
